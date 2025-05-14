@@ -1,0 +1,7 @@
+/give @s wiwwimc:wooden_chunk
+/reload
+/setblock ~ ~ ~ wiwwimc:iron_tile
+/give @s wiwwimc:iron_tile
+/time set day
+/gamemode survival
+/gamemode creative

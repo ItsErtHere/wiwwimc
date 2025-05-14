@@ -1,0 +1,155 @@
+[13:47:33] [main/INFO]: ModLauncher running: args [--launchTarget, neoforgeclientdev, --version, 21.5.65-beta, --assetIndex, asset-index, --assetsDir, C:\\Users\\mymsa\\.gradle\\caches\\minecraft\\assets, --fml.fmlVersion, 7.0.10, --fml.mcVersion, 1.21.5, --fml.neoForgeVersion, 21.5.65-beta, --fml.neoFormVersion, 20250325.162830]
+[13:47:33] [main/INFO]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 21.0.2+13-LTS-58
+[13:47:33] [main/INFO]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.2 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[13:47:33] [main/INFO]: Loading ImmediateWindowProvider fmlearlywindow
+[13:47:33] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/mymsa/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23166!/ Service=ModLauncher Env=CLIENT
+[13:47:34] [main/INFO]: Found mod file "neoforge-21.5.65-beta.jar" [locator: neoforge devenv provider ([C:\Users\mymsa\Documents\wiwwimc_1_21_5\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.5.65-beta\neoforge-21.5.65-beta.jar])]
+[13:47:34] [main/INFO]: Found mod file "neoforge-21.5.65-beta.jar" [locator: neoforge devenv provider ([C:\Users\mymsa\Documents\wiwwimc_1_21_5\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.5.65-beta\neoforge-21.5.65-beta.jar])]
+[13:47:34] [main/INFO]: Found mod file "main" [locator: userdev mods and services, reader: mod manifest]
+[13:47:34] [pool-2-thread-1/INFO]: GL info: Intel(R) Iris(R) Xe Graphics GL version 3.2.0 - Build 31.0.101.4091, Intel
+[13:47:34] [main/INFO]: Found mod file "neoforge-21.5.65-beta.jar" [locator: userdev mods and services, reader: mod manifest]
+[13:47:34] [main/INFO]: Found gamelibrary file "mixinextras-neoforge-0.4.1.jar" [locator: userdev mods and services, reader: mod manifest]
+[13:47:34] [main/WARN]: Attempted to select a dependency jar for JarJar which was passed in as source: library:mixinextras.neoforge. Using Mod File: C:\Users\mymsa\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.4.1\eff97772ecd0dcf8e52cdbafd3b3ccec425f8314\mixinextras-neoforge-0.4.1.jar
+[13:47:34] [main/INFO]: Found 1 dependencies adding them to mods collection
+[13:47:34] [main/INFO]: Found library file "net.neoforged.neoforge-coremods-21.5.65-beta.jar" [parent: neoforge-21.5.65-beta.jar, locator: jarinjar, reader: mod manifest]
+[13:47:34] [main/INFO]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Minecraft 1.21.5 (minecraft)
+		NeoForge 21.5.65-beta (neoforge)
+		WIWWIMC 1.0.0 (wiwwimc)
+[13:47:34] [main/INFO]: Launching target 'neoforgeclientdev' with arguments [--version, 21.5.65-beta, --assetsDir, C:\Users\mymsa\.gradle\caches\minecraft\assets, --assetIndex, asset-index]
+[14May2025 13:47:38.034] [pool-7-thread-1/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[14May2025 13:47:39.502] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 266 Datafixer optimizations took 2117 milliseconds
+[14May2025 13:47:45.886] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14May2025 13:47:45.902] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14May2025 13:47:45.902] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14May2025 13:47:45.902] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14May2025 13:47:45.911] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14May2025 13:47:46.032] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.5.65-beta, for MC 1.21.5
+[14May2025 13:47:46.780] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/mymsa/Documents/wiwwimc_1_21_5/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.5.65-beta/neoforge-21.5.65-beta.jar%23221!/assets/.mcassetsroot' uses unexpected schema
+[14May2025 13:47:46.781] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/mymsa/Documents/wiwwimc_1_21_5/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.5.65-beta/neoforge-21.5.65-beta.jar%23221!/data/.mcassetsroot' uses unexpected schema
+[14May2025 13:47:46.821] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14May2025 13:47:46.834] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[14May2025 13:47:47.038] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[14May2025 13:47:47.153] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Using optional rendering extensions: GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access
+[14May2025 13:47:47.961] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/wiwwimc, mod/neoforge
+[14May2025 13:47:47.974] [resourceLoad/INFO] [com.itserthere.wiwwimc.WIWWIMC/]: HELLO FROM COMMON SETUP
+[14May2025 13:47:47.974] [resourceLoad/INFO] [com.itserthere.wiwwimc.WIWWIMC/]: DIRT BLOCK >> minecraft:dirt
+[14May2025 13:47:47.974] [resourceLoad/INFO] [com.itserthere.wiwwimc.WIWWIMC/]: The magic number is... 42
+[14May2025 13:47:47.975] [resourceLoad/INFO] [com.itserthere.wiwwimc.WIWWIMC/]: ITEM >> minecraft:iron_ingot
+[14May2025 13:47:48.006] [Download-1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[14May2025 13:47:48.010] [Download-1/ERROR] [com.mojang.realmsclient.client.RealmsClient/]: Failed to fetch Realms feature flags
+com.mojang.realmsclient.exception.RealmsServiceException: Realms authentication error with message 'Invalid session id'
+	at TRANSFORMER/minecraft@1.21.5/com.mojang.realmsclient.client.RealmsClient.execute(RealmsClient.java:469) ~[neoforge-21.5.65-beta.jar%23221!/:?]
+	at TRANSFORMER/minecraft@1.21.5/com.mojang.realmsclient.client.RealmsClient.fetchFeatureFlags(RealmsClient.java:151) ~[neoforge-21.5.65-beta.jar%23221!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[14May2025 13:47:48.086] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-16.0.01.hex, loading
+[14May2025 13:47:48.710] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-16.0.01.hex, loading
+[14May2025 13:47:48.910] [resourceLoad/INFO] [com.itserthere.wiwwimc.WIWWIMC/]: HELLO FROM CLIENT SETUP
+[14May2025 13:47:48.911] [resourceLoad/INFO] [com.itserthere.wiwwimc.WIWWIMC/]: MINECRAFT NAME >> Dev
+[14May2025 13:47:50.783] [Render thread/WARN] [com.mojang.blaze3d.opengl.GlProgram/]: Found unknown and unsupported uniform Sampler1 in minecraft:pipeline/armor_cutout_no_cull
+[14May2025 13:47:50.846] [Render thread/WARN] [com.mojang.blaze3d.opengl.GlProgram/]: Found unknown and unsupported uniform Sampler1 in minecraft:pipeline/eyes
+[14May2025 13:47:50.846] [Render thread/WARN] [com.mojang.blaze3d.opengl.GlProgram/]: Found unknown and unsupported uniform Sampler2 in minecraft:pipeline/eyes
+[14May2025 13:47:50.877] [Render thread/WARN] [com.mojang.blaze3d.opengl.GlProgram/]: Found unknown and unsupported uniform Sampler1 in minecraft:pipeline/armor_translucent
+[14May2025 13:47:51.015] [Render thread/WARN] [com.mojang.blaze3d.opengl.GlProgram/]: Found unknown and unsupported uniform Sampler1 in minecraft:pipeline/armor_decal_cutout_no_cull
+[14May2025 13:47:51.029] [Render thread/WARN] [com.mojang.blaze3d.opengl.GlProgram/]: Found unknown and unsupported uniform Sampler1 in minecraft:pipeline/entity_no_outline
+[14May2025 13:47:51.070] [Render thread/WARN] [com.mojang.blaze3d.opengl.GlProgram/]: Found unknown and unsupported uniform Sampler1 in minecraft:pipeline/breeze_wind
+[14May2025 13:47:51.091] [Render thread/WARN] [com.mojang.blaze3d.opengl.GlProgram/]: Found unknown and unsupported uniform Sampler1 in minecraft:pipeline/energy_swirl
+[14May2025 13:47:51.091] [Render thread/WARN] [com.mojang.blaze3d.opengl.GlProgram/]: Found unknown and unsupported uniform Sampler2 in minecraft:pipeline/energy_swirl
+[14May2025 13:47:51.662] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speaker (Realtek(R) Audio)
+[14May2025 13:47:51.662] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[14May2025 13:47:51.753] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[14May2025 13:47:51.845] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[14May2025 13:47:51.847] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[14May2025 13:47:51.851] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[14May2025 13:47:51.857] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[14May2025 13:47:51.906] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[14May2025 13:47:51.908] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[14May2025 13:47:51.911] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[14May2025 13:47:51.914] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[14May2025 13:47:51.917] [Render thread/WARN] [net.minecraft.client.resources.model.ModelManager/]: No model loaded for default item model ID minecraft:iron_tile of wiwwimc:iron_tile
+[14May2025 13:47:51.918] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[14May2025 13:47:52.083] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[14May2025 13:47:52.095] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[14May2025 13:47:52.098] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[14May2025 13:47:52.101] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[14May2025 13:47:52.127] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[14May2025 13:47:54.189] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlDebug/]: OpenGL debug message: id=1282, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_OPERATION in (null): (ID: 173538523) Generic error'
+[14May2025 13:47:54.190] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlDebug/]: OpenGL debug message: id=1282, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_OPERATION in (null): (ID: 173538523) Generic error'
+[14May2025 13:47:54.192] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlDebug/]: OpenGL debug message: id=1282, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_OPERATION in (null): (ID: 173538523) Generic error'
+[14May2025 13:47:54.193] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlDebug/]: OpenGL debug message: id=1282, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_OPERATION in (null): (ID: 173538523) Generic error'
+[14May2025 13:47:54.210] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlDebug/]: OpenGL debug message: id=1282, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_OPERATION in (null): (ID: 173538523) Generic error'
+[14May2025 13:47:55.585] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlDebug/]: OpenGL debug message: id=1282, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_OPERATION in (null): (ID: 173538523) Generic error'
+[14May2025 13:47:55.811] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlDebug/]: OpenGL debug message: id=1282, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_OPERATION in (null): (ID: 173538523) Generic error'
+[14May2025 13:47:56.754] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1373 recipes
+[14May2025 13:47:56.768] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1484 advancements
+[14May2025 13:47:56.772] [Render thread/INFO] [net.neoforged.neoforge.common.crafting.RecipePriorityManager/]: Loaded 0 recipe priority overrides
+[14May2025 13:47:56.947] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.5
+[14May2025 13:47:56.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[14May2025 13:47:57.070] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlDebug/]: OpenGL debug message: id=1282, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_OPERATION in (null): (ID: 173538523) Generic error'
+[14May2025 13:47:57.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[14May2025 13:47:58.751] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14May2025 13:47:58.751] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14May2025 13:47:58.751] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14May2025 13:47:58.940] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[14May2025 13:47:58.940] [Server thread/INFO] [com.itserthere.wiwwimc.WIWWIMC/]: HELLO from server starting
+[14May2025 13:47:58.948] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 1498 ms
+[14May2025 13:47:59.081] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[14May2025 13:47:59.081] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[14May2025 13:48:00.612] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:cb172df9] logged in with entity id 111 at (11.15560346749052, 68.0, -82.01593479003023)
+[14May2025 13:48:00.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[14May2025 13:48:00.814] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 16 advancements
+[14May2025 13:48:00.992] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlDebug/]: OpenGL debug message: id=1282, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_OPERATION in (null): (ID: 173538523) Generic error'
+[14May2025 13:48:00.998] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlDebug/]: OpenGL debug message: id=1282, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_OPERATION in (null): (ID: 173538523) Generic error'
+[14May2025 13:48:01.792] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlDebug/]: OpenGL debug message: id=1282, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_OPERATION in (null): (ID: 173538523) Generic error'
+[14May2025 13:48:01.825] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlDebug/]: OpenGL debug message: id=1282, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_OPERATION in (null): (ID: 173538523) Generic error'
+[14May2025 13:48:03.830] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlDebug/]: OpenGL debug message: id=1282, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_OPERATION in (null): (ID: 173538523) Generic error'
+[14May2025 13:48:04.372] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlDebug/]: OpenGL debug message: id=1282, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_OPERATION in (null): (ID: 173538523) Generic error'
+[14May2025 13:48:04.894] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlDebug/]: OpenGL debug message: id=1282, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_OPERATION in (null): (ID: 173538523) Generic error'
+[14May2025 13:48:04.927] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlDebug/]: OpenGL debug message: id=1282, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_OPERATION in (null): (ID: 173538523) Generic error'
+[14May2025 13:48:04.940] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlDebug/]: OpenGL debug message: id=1282, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_OPERATION in (null): (ID: 173538523) Generic error'
+[14May2025 13:48:04.977] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlDebug/]: OpenGL debug message: id=1282, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_OPERATION in (null): (ID: 173538523) Generic error'
+[14May2025 13:48:04.988] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlDebug/]: OpenGL debug message: id=1282, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_OPERATION in (null): (ID: 173538523) Generic error'
+[14May2025 13:48:05.094] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlDebug/]: OpenGL debug message: id=1282, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_OPERATION in (null): (ID: 173538523) Generic error'
+[14May2025 13:48:05.377] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlDebug/]: OpenGL debug message: id=1282, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_OPERATION in (null): (ID: 173538523) Generic error'
+[14May2025 13:48:05.434] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlDebug/]: OpenGL debug message: id=1282, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_OPERATION in (null): (ID: 173538523) Generic error'
+[14May2025 13:48:05.483] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlDebug/]: OpenGL debug message: id=1282, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_OPERATION in (null): (ID: 173538523) Generic error'
+[14May2025 13:48:05.499] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlDebug/]: OpenGL debug message: id=1282, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_OPERATION in (null): (ID: 173538523) Generic error'
+[14May2025 13:48:05.683] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlDebug/]: OpenGL debug message: id=1282, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_OPERATION in (null): (ID: 173538523) Generic error'
+[14May2025 13:48:06.546] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlDebug/]: OpenGL debug message: id=1282, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_OPERATION in (null): (ID: 173538523) Generic error'
+[14May2025 13:48:07.286] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlDebug/]: OpenGL debug message: id=1282, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_OPERATION in (null): (ID: 173538523) Generic error'
+[14May2025 13:48:07.473] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlDebug/]: OpenGL debug message: id=1282, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_OPERATION in (null): (ID: 173538523) Generic error'
+[14May2025 13:48:07.562] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlDebug/]: OpenGL debug message: id=1282, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_OPERATION in (null): (ID: 173538523) Generic error'
+[14May2025 13:48:07.610] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlDebug/]: OpenGL debug message: id=1282, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_OPERATION in (null): (ID: 173538523) Generic error'
+[14May2025 13:48:07.677] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlDebug/]: OpenGL debug message: id=1282, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_OPERATION in (null): (ID: 173538523) Generic error'
+[14May2025 13:48:07.778] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlDebug/]: OpenGL debug message: id=1282, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_OPERATION in (null): (ID: 173538523) Generic error'
+[14May2025 13:48:08.592] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlDebug/]: OpenGL debug message: id=1282, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_OPERATION in (null): (ID: 173538523) Generic error'
+[14May2025 13:48:09.945] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[14May2025 13:48:10.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[14May2025 13:48:10.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[14May2025 13:48:10.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[14May2025 13:48:44.295] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlDebug/]: OpenGL debug message: id=1282, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_OPERATION in (null): (ID: 173538523) Generic error'
+[14May2025 13:48:48.706] [Render thread/INFO] [com.mojang.blaze3d.opengl.GlDebug/]: OpenGL debug message: id=1282, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_OPERATION in (null): (ID: 173538523) Generic error'
+[14May2025 13:49:47.595] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[14May2025 13:49:47.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[14May2025 13:49:47.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[14May2025 13:49:47.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[14May2025 13:49:48.799] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[14May2025 13:49:48.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[14May2025 13:49:48.811] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
+[14May2025 13:49:48.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[14May2025 13:49:48.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[14May2025 13:49:48.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[14May2025 13:49:48.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[14May2025 13:49:49.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[14May2025 13:49:49.042] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[14May2025 13:49:49.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[14May2025 13:49:49.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14May2025 13:49:49.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14May2025 13:49:49.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14May2025 13:49:50.358] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
