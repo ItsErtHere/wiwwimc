@@ -1,6 +1,6 @@
 {
   "itemGroup.wiwwimc.wiwwimc_blocks": "WIWWIMC Blocks",
   "block.wiwwimc.iron_tile": "Iron Tile",
-  "item.minecraft.iron_tile": "Iron Tile",
+  "item.wiwwimc.iron_tile": "Iron Tile",
   "item.wiwwimc.wooden_chunk": "Wooden Chunk"
 }

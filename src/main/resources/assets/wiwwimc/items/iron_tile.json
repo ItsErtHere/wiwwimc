@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "wiwwimc:item/iron_tile"
+    "model": "wiwwimc:block/iron_tile"
   }
 }

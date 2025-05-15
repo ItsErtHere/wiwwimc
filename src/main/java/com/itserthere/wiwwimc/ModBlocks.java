@@ -68,7 +68,7 @@ public class ModBlocks {
         return ModItems.ITEMS.register(name,
                 () -> new BlockItem(block.get(),new Item.Properties()
                         .setId(ResourceKey.create(Registries.ITEM,
-                                ResourceLocation.parse(name)))));
+                                ResourceLocation.fromNamespaceAndPath(name,WIWWIMC.MODID)))));
     }
     //  --  BLOCKS --
     public static DeferredBlock<Block> IRON_TILE = registerMetalBlock(
